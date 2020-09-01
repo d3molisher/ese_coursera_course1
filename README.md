@@ -1,13 +1,6 @@
-###******************************************************************************
-# Copyright (C) 2020 by Kavya Jain
-#
-# Redistribution, modification or use of this software in source or binary
-# forms is permitted as long as the files maintain this copyright. Users are 
-# permitted to modify this and use it to learn about the field of embedded
-# software. Alex Fosdick and the University of Colorado are not liable for any
-# misuse of this material. 
-#
-###*****************************************************************************
-
-
-### This repo is for Coursera course Embedded Systems Software and Dev
+/* Author : Kavya Jain
+ * Assingment 1 for the Introduction to embedded Systems Software on Coursera. 
+ * The project contain 2 files, stats.c and stats.h
+ * Stats.c contain the function implemeentations of 7 function and the main function. 
+ * Stats.h cintain the prototypes of all the function.
+ */
