@@ -1,3 +1,4 @@
+/*
 *Author : Kavya Jain
 
 *Date : 09/09/2020
@@ -18,3 +19,4 @@
 	*common - Contains common headers for both platform targets
 	*msp432 - Contains MSP432 platform headers
 	*CMSIS - Contains ARM architecture specific headers
+*/
