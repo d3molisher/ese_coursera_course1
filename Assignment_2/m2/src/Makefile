@@ -1,4 +1,4 @@
-#******************************************************************************
+#****************************************************************************
 # Copyright (C) 2017 by Alex Fosdick - University of Colorado
 #
 # Redistribution, modification or use of this software in source or binary
@@ -10,15 +10,22 @@
 #*****************************************************************************
 
 #------------------------------------------------------------------------------
-# <Put a Description Here>
+# This Makefile maintain builds for 2 platforms : HOST and MSP432
 #
 # Use: make [TARGET] [PLATFORM-OVERRIDES]
 #
 # Build Targets:
-#      <Put a description of the supported targets here>
+#       <File>.o - build an object file <File>.o
+#       <File>.asm - build an assemply file <File>.asm
+#       <File>.i - build a preproccesed file <File>.i
+#       compile-all - compile and assemble all source files without linking
+#       build - compile all files and generate output file
+#       clean - remove all intermediate compilation files
+#
 #
 # Platform Overrides:
-#      <Put a description of the supported Overrides here
+#     HOST - default platform
+#     MSP432 - TARGET cross-compiled platform
 #
 #------------------------------------------------------------------------------
 include sources.mk
